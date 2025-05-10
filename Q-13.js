@@ -1,7 +1,7 @@
 // qus-13: "Create a new array with only strings from a mixed array",
 const arr = [1, "a", 2, "b"]; // Output: ["a", "b"]',
 
-function stringsNamber(arr) {
+function stringsNumber(arr) {
   let newArray = [];
   for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] === "string") {
@@ -10,7 +10,7 @@ function stringsNamber(arr) {
   }
   return newArray;
 }
-let result = stringsNamber(arr);
+let result = stringsNumber(arr);
 console.log(result);
 
 //Problem Solved by Method Use

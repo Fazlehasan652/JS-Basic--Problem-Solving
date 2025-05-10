@@ -1,6 +1,6 @@
 // qus-12: "Filter out even numbers",
    const arr = [1, 2, 3, 4]; // Output: [1, 3]",
-   function evenNamber(arr){
+   function evenNumber(arr){
      let newArray = []
  for (let i  = 0; i  < arr.length; i ++) {
     if (arr[i]%2 !== 0) {
@@ -10,7 +10,7 @@
  }
  return newArray
 }
-let result = evenNamber(arr)
+let result = evenNumber(arr)
 console.log(result)
 
 //Problem Solved by Method Use

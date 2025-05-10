@@ -1,14 +1,14 @@
 // qus-11: "Double all numbers in an array",
 const arr = [1, 2, 3]; // Output: [2, 4, 6]",
 
-function doubleNamber(arr){
+function doubleNumber(arr){
      let newArray = []
  for (let i  = 0; i  < arr.length; i ++) {
         newArray.push(arr[i]*2) 
  }
  return newArray
 }
-let result = doubleNamber(arr)
+let result = doubleNumber(arr)
 console.log(result)
 
 //Problem Solved by Method Use

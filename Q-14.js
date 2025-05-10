@@ -1,7 +1,7 @@
 // qus-14: "Capitalize all strings in an array",
    const arr = ['apple', 'banana']; // Output: ['APPLE', 'BANANA']",
 
-   function capitalizeNamber(arr) {
+   function capitalizeNumber(arr) {
   let newArray = [];
   for (let i = 0; i < arr.length; i++) {
     
@@ -10,7 +10,7 @@
   }
   return newArray;
 }
-let result = capitalizeNamber(arr);
+let result = capitalizeNumber(arr);
 console.log(result);
 
 //Problem Solved by Method Use
